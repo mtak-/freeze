@@ -14,5 +14,6 @@ documentation = "https://docs.rs/freeze"
 default = []
 nightly = ["freeze-macros/nightly"]
 
-[dependencies]
-freeze-macros = { path = "./freeze-macros" }
+[dependencies.freeze-macros]
+path = "freeze-macros"
+version = "0.1.0"

@@ -1,7 +1,14 @@
 [package]
 name = "freeze-macros"
 version = "0.1.0"
+license = "MIT/Apache-2.0"
+authors = ["mtak-"]
 edition = "2018"
+keywords = ["memory", "read-only", "mutability"]
+description = "A stable version of the rust compiler's internal `Freeze` trait."
+repository = "https://github.com/mtak-/freeze"
+homepage = "https://github.com/mtak-/freeze"
+documentation = "https://docs.rs/freeze"
 
 [features]
 default = []
